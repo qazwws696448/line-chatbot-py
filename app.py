@@ -47,7 +47,7 @@ def handle_message(event):
     elif "停車證申請" in user_message:
     	reply_message = "https://servicecenter.ntut.edu.tw/p/412-1106-15586.php"
     elif "美食" in user_message:
-	reply_message=""
+	reply_message= ""
         with open('food.csv', newline='') as csvfile:
             rows = csv.reader(csvfile)
             for row in rows:
